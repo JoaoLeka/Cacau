@@ -3,7 +3,7 @@ padding: 0;
 margin: 0;
 background-image: url('Design\ sem\ nome\ \(3\).png');
 background-size: cover;
-height: 550px;
+height: 600px;
 }
 .header{
     background-color: rgba(0, 0, 0, 0.301);
@@ -59,16 +59,45 @@ padding: 100px;
 
     
 }
-.card{
-    height: 350px;
-width: 350px;
+
+.containerLogin{
+
+    height: 290px;
+width: 280px;
 background-color: rgba(0, 0, 0, 0.219);
 color: white;
 border-radius: 15px;
 border:  1px solid #FFA500;
 font-family: 'Poppins', sans-serif;
 list-style: none;
+margin-top: 60px;
+margin-bottom: 100px;
+margin-left: 36%;
+padding: 50px;
+
 }
+
+.containerCadastro{
+    height: 530px;
+width: 700px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.219);
+color: white;
+border-radius: 15px;
+border:  1px solid #FFA500;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+margin-top: 60px;
+margin-bottom: 100px;
+margin-left: 20%;
+padding: 50px;
+
+
+}
+
+
 .login{
 
 display: flex;
@@ -98,6 +127,14 @@ margin-bottom: 0px;
     height: 2px;
     width: 100px;
     margin-left: 20px;
+    
+}
+
+.card .linhaC{
+    background-color: #FFA500;
+    height: 2px;
+    width: 109px;
+    margin-left: 30px;
     
 }
 
