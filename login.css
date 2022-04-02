@@ -34,6 +34,11 @@ text-decoration: none;
 color: #FFA500;
     
 }
+.header a:hover{
+text-decoration: underline;
+
+
+}
 .navbar{
 
     display: flex;
