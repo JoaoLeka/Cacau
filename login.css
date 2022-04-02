@@ -1,0 +1,174 @@
+body{
+padding: 0;
+margin: 0;
+background-image: url('Design\ sem\ nome\ \(3\).png');
+background-size: cover;
+height: 550px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.301);
+color:  #FFA500;
+border-bottom: 1px solid #FFFF  ;
+border-top: 3px solid #FFFF  ;;
+margin: 0;
+
+}
+.header img{
+    width: 70px;
+    
+    margin-left: 2px;
+}
+.header .container{
+    
+
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    
+        
+    
+}
+.header a{
+text-decoration: none;
+color: #FFA500;
+    
+}
+.navbar{
+
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+margin: 0;    
+margin-top: 2px;
+    }
+
+
+.containerLogin{
+justify-content: center;
+margin-left: 30%;
+margin-top: 0px;
+padding: 100px;
+
+    
+}
+.card{
+    height: 350px;
+width: 350px;
+background-color: rgba(0, 0, 0, 0.219);
+color: white;
+border-radius: 15px;
+border:  1px solid #FFA500;
+font-family: 'Poppins', sans-serif;
+list-style: none;
+}
+.login{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.card h2{
+color: white;
+margin-left: 25px;
+margin-bottom: 0px;
+}
+
+.card h6{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    display: flex;
+    
+
+
+}
+.card .linha{
+    background-color: #FFA500;
+    height: 2px;
+    width: 100px;
+    margin-left: 20px;
+    
+}
+
+
+.card a{ 
+    color: #3289cd ;
+    
+}
+
+.card a:hover{ 
+    color:   #052c47;
+}
+.login input{
+background-color:rgba(255, 255, 255, 0) ;
+border: 0;
+outline: 1px solid #FFA500;
+margin-top: 5px;
+border-radius: 8px;
+height: 25px;
+box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.63);
+color: white;
+
+}
+label{
+    margin-top: 5px;
+}
+
+.login button{
+    background-image: linear-gradient(to left,#FF007F  ,#FFA500 );
+    cursor: pointer;
+    border:  1px solid #FFA500;
+    
+    width: 95px;
+    height: 40px;
+    color: white;
+    border-radius:8px ;
+    margin-top: 15px;
+    align-self: center;
+    transition: 0s;
+    margin-bottom: 30px;
+}
+.login button:hover{
+    background-image: linear-gradient(to left,#bb0861  ,#c58308 );
+border:  2px ridge #FFA500;
+color: rgb(204, 199, 199);
+}
+
+
+
+form{display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;}
+
+label{
+    color: white;
+}
+
+.pé{
+background-color: #00000057;
+color: rgb(255, 255, 255);
+    
+}
+.pé .container{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.agora{
+font-weight: 900;
+
+    
+}
+
