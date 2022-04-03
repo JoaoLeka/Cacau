@@ -1,4 +1,4 @@
-body{
+.bodyFundo2{
 padding: 0;
 margin: 0;
 background-image: url('Design\ sem\ nome\ \(3\).png');
@@ -17,8 +17,8 @@ height: 600px;
     height: 550px;
     display: flex;
     color: white;
-    align-items: center;
 margin-top: 0px;
+
 
 
 
@@ -27,8 +27,9 @@ margin-top: 0px;
     background-image: url('Ellipse\ 1.png');
     width: 7000px;
     height: 100%;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 0;
+    
 }
 
 .frase p{
@@ -37,6 +38,37 @@ margin-top: 0px;
     width:  280px;
     margin-left: 50%;
 
+}
+.frase button{
+    margin-left: 55%;
+    background-color: 
+    #f2b44181;
+    color: white;
+    border: 1px solid black;
+    width: 145px;
+height: 35px;
+border-radius: 18px;
+cursor: pointer;
+transition: 0.5s;
+}
+.frase button a{
+color: white;
+text-decoration: none;
+
+
+}
+.frase button:hover{
+
+background-color: #86662981 ;
+
+
+}
+
+.frase img{
+    height: 350px;
+margin-top: 90px;
+    
+    margin-left: 100px;
 }
 
 .header{
@@ -47,11 +79,10 @@ border-top: 3px solid #FFFF  ;;
 margin: 0;
 
 }
-.header img{
-    width: 70px;
-    
-    margin-left: 2px;
+.header p{
+    font-size: 25px;
 }
+
 .header .container{
     
 
